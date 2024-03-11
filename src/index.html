@@ -51,10 +51,32 @@
           <div class="col-4">
             <div>
               <h2>Options</h2>
+              <form action="#">
+                <label for="questions">Nombre de questions</label>
+                <select id="questions" name="questions">
+                  <option value="5">5</option>
+                  <option value="10">10</option>
+                  <option value="20">20</option>
+                  <option value="20">30</option>
+                  <option value="20">40</option>
+                  <option value="20">50</option>
+                </select>
+                <br />
+                <label>
+                  <input type="checkbox" name="print-option" />
+                  option d'impression
+                </label>
+              </form>
             </div>
             <br />
             <div>
               <h2>Verbes</h2>
+              <form action="#">
+                <div class="textfield">
+                  <input type="text" id="verb" name="verb" />
+                  <label for="code:">verbes</label>
+                </div>
+              </form>
             </div>
           </div>
           <div class="col-8">
