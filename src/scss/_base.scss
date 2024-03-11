@@ -44,5 +44,28 @@ video {
 // ==================================== */
 
 body {
-  font-family: roboto;
+  font-family: "brandon-grotesque", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 50px;
+  letter-spacing: -1px;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 30px;
+  font-weight: 420;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 20px;
 }
