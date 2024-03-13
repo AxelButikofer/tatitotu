@@ -1,13 +1,4 @@
-body {
-  background: #f6f6f6;
-}
-
-header,
-footer {
-  background: #ffde69;
-}
-
-.section-options {
+.l-section-options {
   background: var(--orange);
   padding: 15px;
   border-radius: 30px;
@@ -15,7 +6,7 @@ footer {
   box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.25);
 }
 
-.section-verbes {
+.l-section-verbes {
   background: white;
   padding: 15px;
   border-radius: 30px;
@@ -23,7 +14,7 @@ footer {
   box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.25);
 }
 
-.section-temps {
+.l-section-temps {
   background: white;
   padding: 15px;
   border-radius: 30px;
