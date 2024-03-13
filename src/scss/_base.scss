@@ -3,6 +3,14 @@
 // ==================================== */
 
 :root {
+  --orange: #ffbd5c;
+  --green: #abffab;
+  --blue: #94d9ff;
+  --pink: #f9b7c9;
+  --orange-stroke: #f79e28;
+  --green-stroke: #5de85d;
+  --blue-stroke: #5ebce5;
+  --pink-stroke: #e26d91;
 }
 
 /* ====================================
@@ -53,6 +61,7 @@ h1 {
   font-weight: 900;
   font-size: 50px;
   letter-spacing: -1px;
+  display: inline;
 }
 
 h2 {
