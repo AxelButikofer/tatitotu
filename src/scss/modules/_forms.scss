@@ -1,0 +1,17 @@
+.textfield {
+  position: relative;
+}
+
+.textfield label {
+  position: absolute;
+  top: 1px;
+  left: 10px;
+  pointer-events: none;
+  background: #fefbf2;
+  transition: transform 0.3s;
+  transform-origin: left;
+}
+
+input:focus + label {
+  transform: translateY(-7px) scale(0.7);
+}
