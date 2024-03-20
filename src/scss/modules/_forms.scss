@@ -40,3 +40,7 @@ input:checked + .switch-wrapper .switch-inner {
 .switch input {
   display: none;
 }
+
+.switch .l-section-options {
+  background: red;
+}

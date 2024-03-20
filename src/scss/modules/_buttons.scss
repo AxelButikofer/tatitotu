@@ -9,6 +9,7 @@
   display: flex;
   justify-content: center;
   padding: 15px 0;
+  margin-bottom: 25px;
 }
 
 .button-export {
@@ -16,6 +17,7 @@
   border-color: var(--green-stroke);
   font-size: 25px;
   padding: 5px 0;
+  margin-top: 20px;
 }
 
 .button-import {
@@ -23,6 +25,7 @@
   border-color: var(--orange-stoke);
   font-size: 25px;
   padding: 5px 0;
+  margin-top: 20px;
 }
 
 .segmented-button {
