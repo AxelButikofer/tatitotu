@@ -11,27 +11,16 @@
   padding: 15px 0;
 }
 
-.switch-wrapper {
-  display: inline-block;
-  width: 30px;
-  height: 20px;
-  padding: 2px;
-  border-radius: 10px;
-  border: var(--pink-stroke) 0 solid;
-  background: white;
+.button-export {
+  color: var(--green-stroke);
+  border-color: var(--green-stroke);
+  font-size: 25px;
+  padding: 5px 0;
 }
 
-.switch-inner {
-  width: 16px;
-  height: 16px;
-  border-radius: 8px;
-  background: var(--pink-stroke);
-}
-
-input:checked + .switch-wrapper .switch-inner {
-  margin-left: 10px;
-}
-
-.switch input {
-  display: none;
+.button-import {
+  color: var(--orange-stroke);
+  border-color: var(--orange-stoke);
+  font-size: 25px;
+  padding: 5px 0;
 }
