@@ -24,3 +24,33 @@
   font-size: 25px;
   padding: 5px 0;
 }
+
+.segmented-button {
+  display: flex;
+  justify-content: center;
+}
+
+.segmented-button input[type="radio"] {
+  display: none;
+}
+
+.segmented-button label {
+  width: 100%;
+  padding: 5px 20px;
+  background-color: white;
+  text-align: center;
+  border: solid var(--orange-stroke) 2px;
+}
+
+.segmented-button input[type="radio"]:checked + label {
+  background-color: var(--orange-stroke);
+  color: white;
+}
+
+.segmented-radius-left {
+  border-radius: 10px 0 0 10px;
+}
+
+.segmented-radius-right {
+  border-radius: 0 10px 10px 0;
+}
