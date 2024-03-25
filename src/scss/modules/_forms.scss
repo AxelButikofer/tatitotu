@@ -41,6 +41,7 @@ input:checked + .switch-wrapper .switch-inner {
   display: none;
 }
 
-.switch .l-section-options {
-  background: red;
+.right-alignment-form {
+  display: flex;
+  justify-content: right;
 }

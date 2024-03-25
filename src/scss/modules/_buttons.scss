@@ -57,3 +57,18 @@
 .segmented-radius-right {
   border-radius: 0 10px 10px 0;
 }
+
+.delete-all {
+  color: red;
+  text-decoration: none;
+}
+
+.select-all {
+  color: green;
+  text-decoration: none;
+}
+
+.delete-verbs {
+  display: flex;
+  justify-content: right;
+}
