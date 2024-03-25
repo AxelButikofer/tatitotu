@@ -67,6 +67,10 @@ footer {
   background: #ffde69;
 }
 
+header p {
+  display: inline;
+}
+
 h1 {
   font-weight: 900;
   font-size: 50px;
@@ -91,4 +95,9 @@ h4 {
   font-weight: 700;
   font-size: 20px;
   margin: 25px 0;
+}
+
+hr {
+  border: solid 1px var(--orange-stroke);
+  margin: 10px;
 }
