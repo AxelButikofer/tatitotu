@@ -72,3 +72,11 @@
   display: flex;
   justify-content: right;
 }
+
+.infos-button {
+  font-size: 13px;
+  display: inline;
+  padding: 01 8px;
+  border-radius: 25px;
+  border: solid 1px var(--pink-stroke);
+}
