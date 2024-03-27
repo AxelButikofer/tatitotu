@@ -1,7 +1,13 @@
 .dropdown-menu {
   text-align: center;
-  background: var(--orange);
+  background: white;
   border: 2px solid var(--orange-stroke);
   border-radius: 10px;
   width: 200px;
+  position: absolute;
+  opacity: 0;
+}
+
+.dropdown-button:hover .dropdown-menu {
+  opacity: 1;
 }
