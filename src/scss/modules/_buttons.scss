@@ -12,6 +12,12 @@
   margin-bottom: 25px;
 }
 
+.button:hover {
+  color: white;
+  background: var(--blue);
+  transition: 0.2s;
+}
+
 .button-export {
   color: var(--green-stroke);
   border-color: var(--green-stroke);
@@ -20,12 +26,21 @@
   margin-top: 20px;
 }
 
+.button-export:hover {
+  background: var(--green);
+}
+
 .button-import {
   color: var(--orange-stroke);
   border-color: var(--orange-stoke);
   font-size: 25px;
   padding: 5px 0;
   margin-top: 20px;
+}
+
+.button-import:hover {
+  background: var(--orange);
+  border-color: var(--orange-stroke);
 }
 
 .segmented-button {
