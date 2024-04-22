@@ -1,15 +1,18 @@
-// Sélectionner l'élément h4 et la section
-const toggleHeader = document.getElementById("toggleHeader");
-const maSection = document.getElementById("maSection");
+const toggleHeaders = document.querySelectorAll(".toggleHeader");
 
-// Ajouter un écouteur d'événement au clic sur l'élément h4
-toggleHeader.addEventListener("click", function () {
-  // Vérifier si la section est visible ou masquée
-  if (maSection.style.display === "none") {
-    // Si la section est masquée, l'afficher
-    maSection.style.display = "block";
-  } else {
-    // Sinon, la masquer
-    maSection.style.display = "none";
-  }
+toggleHeaders.forEach((toggleHeader) => {
+  toggleHeader.addEventListener("click", function () {
+    const targetId = this.getAttribute("data-target");
+
+    const targetSection = document.getElementById(targetId);
+
+    if (
+      targetSection.style.display === "none" ||
+      !targetSection.style.display
+    ) {
+      targetSection.style.display = "block";
+    } else {
+      targetSection.style.display = "none";
+    }
+  });
 });
