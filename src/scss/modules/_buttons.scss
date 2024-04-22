@@ -100,3 +100,14 @@
   color: white;
   background: var(--pink-stroke);
 }
+
+.temps {
+  opacity: 0;
+  pointer-events: one;
+  transition: opacity 0.2;
+}
+
+.section.is-active {
+  opacity: 1;
+  pointer-events: auto;
+}

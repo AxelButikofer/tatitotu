@@ -11,3 +11,8 @@
 .dropdown-button:hover .dropdown-menu {
   opacity: 1;
 }
+
+.dropdown {
+  display: flex;
+  flex-direction: row;
+}
